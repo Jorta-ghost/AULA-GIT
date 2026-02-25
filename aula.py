@@ -1,8 +1,12 @@
 animal = 0 
-print("Digite o número do animal (0 para cachorro, 1 para gato):")
+
+print("Digite o número do animal (C para cachorro, G para gato):")
 imput_animal = input()
-if animal == 0:
+
+if imput_animal == "C":
+    animal = 0
     print("O animal é um cachorro")
-elif animal == 1:
+elif imput_animal == "G":
+    animal = 1
     print("O animal é um gato")
 else:    print("O animal é desconhecido")
